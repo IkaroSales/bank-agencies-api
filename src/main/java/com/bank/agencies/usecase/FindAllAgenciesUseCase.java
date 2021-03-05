@@ -1,14 +1,17 @@
 package com.bank.agencies.usecase;
 
-import com.bank.agencies.domain.AgencyGatewayResponse;
-import com.bank.agencies.external.gateway.AgenciesGateway;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.bank.agencies.domain.AgencyGatewayResponse;
+import com.bank.agencies.external.gateway.AgenciesGateway;
 
 @Service
 public class FindAllAgenciesUseCase {
 
+	@Autowired
     private final AgenciesGateway bankResourcesGateway;
 
     public FindAllAgenciesUseCase(AgenciesGateway bankResourcesGateway) {

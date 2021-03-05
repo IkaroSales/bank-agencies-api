@@ -18,6 +18,12 @@ Bem vindo! Se você está aqui é porque gostamos do seu perfil e queremos conhe
 * Manutenabilidade
 * Modelagem de dados (Estruturas de dados utilizadas, etc)
 
+# Swagger
+* Projeto contém o Swagger como documentação da API e para teste, basta acessar o endereço abaixo:
+```
+http://localhost:8080/swagger-ui.html
+```
+
 # Sobre o projeto
 Esse projeto é uma API REST com SpringBoot, Maven em JAVA 11 usando uma adaptação do modelo 'Clean Architecture'.
 
